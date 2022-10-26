@@ -1,0 +1,167 @@
+body{
+    background-color: blue;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+/* nav bar */
+.nav{
+    background-color: aqua;
+    width: 15vw;
+    height: 100vh;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile, .menu, .admin, .categories{
+    border-style: dashed;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
+
+/* main page */
+.main{
+    background-color: green;
+    width: 85vw;
+    height: 100vh;
+}
+
+/* search bar */
+.search-field{
+    border-style: dashed;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 65vw;
+    height: 7vh;
+}
+
+/* job title */
+.title{
+    border-style: dashed;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-location-and-options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.location, .preview-this-post{
+    margin: 0;
+}
+
+.title-options{
+    border-style: dashed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+}
+
+.about-menu{
+    display: flex;
+    border-style: dashed;
+    padding: 0;
+    margin: 0;
+}
+
+.about-menu-option{
+    padding-right: 5vw;
+}
+
+/* statistics area */
+.statistics{
+    border-style: dashed;
+    border-color: white;
+    display: flex;
+}
+
+.pie-information{
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vw;
+}
+
+.pie-charts{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border-style: dashed;
+    width: 45vw;
+}
+
+.bar-information{
+    border-style: dashed;
+    border-color: rgb(38, 206, 215);
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+}
+
+.bar-graph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    border-style: dashed;
+    width: 85vw;
+}
+
+.divider1, .divider2{
+    width: 42vw;
+}
+
+/* temporary placeholders */
+.place-holder{
+    background-color: grey;
+    border-style: solid;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.place-holder-mini{
+    background-color: grey;
+    border-style: solid;
+    width: 1vw;
+    height: 1vw;
+}
+
+.place-holder-big{
+    background-color: grey;
+    border-style: solid;
+    width: 9vw;
+    height: 9vw;
+}
+
+.place-holder-mega{
+    background-color: grey;
+    border-style: solid;
+    width: 18vw;
+    height: 9vw;
+}
