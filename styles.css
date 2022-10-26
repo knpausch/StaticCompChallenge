@@ -126,6 +126,17 @@ body{
     align-items: center;
 }
 
+.divider{
+    display: flex;
+    align-items: center;
+    border-style: dashed;
+    width: 85vw;
+}
+
+.divider1, .divider2{
+    width: 42vw;
+}
+
 /* temporary placeholders */
 .place-holder{
     background-color: grey;
