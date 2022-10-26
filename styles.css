@@ -42,7 +42,7 @@ body{
 
 .search-bar{
     width: 65vw;
-    height: 11vh;
+    height: 7vh;
 }
 
 /* job title */
@@ -89,6 +89,43 @@ body{
     padding-right: 5vw;
 }
 
+/* statistics area */
+.statistics{
+    border-style: dashed;
+    border-color: white;
+    display: flex;
+}
+
+.pie-information{
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vw;
+}
+
+.pie-charts{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border-style: dashed;
+    width: 45vw;
+}
+
+.bar-information{
+    border-style: dashed;
+    border-color: rgb(38, 206, 215);
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+}
+
+.bar-graph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* temporary placeholders */
 .place-holder{
     background-color: grey;
@@ -102,4 +139,18 @@ body{
     border-style: solid;
     width: 1vw;
     height: 1vw;
+}
+
+.place-holder-big{
+    background-color: grey;
+    border-style: solid;
+    width: 9vw;
+    height: 9vw;
+}
+
+.place-holder-mega{
+    background-color: grey;
+    border-style: solid;
+    width: 18vw;
+    height: 9vw;
 }
