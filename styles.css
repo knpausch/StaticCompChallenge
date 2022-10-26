@@ -5,14 +5,30 @@ body{
     display: flex;
 }
 
+/* nav bar */
 .nav{
     background-color: aqua;
-    width: 20vw;
+    width: 15vw;
     height: 100vh;
 }
 
+.profile{
+    border-style: dashed;
+    margin: 0;
+    height: fit-content;
+
+}
+
+.menu, .admin, .categories{
+    border-style: dashed;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
+
+/* main page */
 .main{
     background-color: green;
-    width: 80vw;
+    width: 85vw;
     height: 100vh;
 }
