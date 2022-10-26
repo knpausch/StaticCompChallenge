@@ -32,21 +32,74 @@ body{
     height: 100vh;
 }
 
-.header{
+/* search bar */
+.search-field{
     border-style: dashed;
-    height: 8vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
 }
 
 .search-bar{
     width: 65vw;
-    height: 7.5vh;
+    height: 11vh;
 }
 
+/* job title */
+.title{
+    border-style: dashed;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-location-and-options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.location, .preview-this-post{
+    margin: 0;
+}
+
+.title-options{
+    border-style: dashed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+}
+
+.about-menu{
+    display: flex;
+    border-style: dashed;
+    padding: 0;
+    margin: 0;
+}
+
+.about-menu-option{
+    padding-right: 5vw;
+}
+
+/* temporary placeholders */
 .place-holder{
     background-color: grey;
     border-style: solid;
     width: 3.5vw;
     height: 3.5vw;
+}
+
+.place-holder-mini{
+    background-color: grey;
+    border-style: solid;
+    width: 1vw;
+    height: 1vw;
 }
