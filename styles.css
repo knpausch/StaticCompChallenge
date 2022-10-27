@@ -9,7 +9,7 @@ body{
 .nav{
     background-color: aqua;
     width: 15vw;
-    height: 128vh;
+    height: fit-content;
 }
 
 .profile{
@@ -29,7 +29,7 @@ body{
 .main{
     background-color: green;
     width: 85vw;
-    height: 100vh;
+    height: fit-content;
 }
 
 /* search bar */
@@ -192,9 +192,46 @@ body{
 
 /* connect area */
 .connect{
-    background-color: rgb(84, 243, 79);
+    background-color: rgb(215, 238, 87);
     width: 20vw;
-    height: 40vh;
+    height: fit-content;
+}
+
+.facebook-container, .twitter-container, .linkedin-container{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    width: 20vw;
+}
+
+.facebook-title-container, .twitter-title-container, .linkedin-title-container{
+    border-style: dashed;
+    width: 18vw;
+}
+
+.link-job-area, .use-widget-area, .upload-resume-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-to-this-job-container, .use-the-button-widget-container,
+.upload-resume-by-email-container{
+    display: flex;
+    align-items: center;
+}
+
+.copy-job-interaction-container, .copy-widget-interaction-container,
+.copy-email-container{
+    display:flex;
+    justify-content: center;
+}
+
+.job-URL-textbox, .widget-code-textbox{
+    width: 15vw;
+}
+
+.email-textbox{
+    width: 17.5vw;
 }
 
 /* temporary placeholders */
