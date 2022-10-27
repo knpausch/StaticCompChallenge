@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: rgb(255, 77, 0);
     margin: 0;
     height: 100vh;
     display: flex;
@@ -9,7 +9,7 @@ body{
 .nav{
     background-color: aqua;
     width: 15vw;
-    height: 100vh;
+    height: 128vh;
 }
 
 .profile{
@@ -133,8 +133,68 @@ body{
     width: 85vw;
 }
 
-.divider1, .divider2{
+.divider-1, .divider-2{
     width: 42vw;
+}
+
+/* about and connect area */
+.about-and-connect{
+    display: flex;
+}
+
+/* about area */
+.about{
+    background-color: rgb(243, 182, 79);
+    width: 65vw;
+    height: fit-content;
+}
+
+.job-description-banner{
+    background-color: blue;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.job-description-text{
+    margin: 0;
+}
+
+.position-title-container, .location-container, .employment-type-container,
+.experience-container, .status-container,
+.hiring-lead-container, .approved-salary-container{
+    display: flex;
+    border-style: dashed;
+    align-items: center;
+}
+
+.description-container{
+    display: flex;
+    border-style: dashed;
+}
+
+.position-title-text, .location-text, .employment-type-text,
+.experience-text, .status-text, .description-text, .hiring-lead-text,
+.approved-salary-text{
+    border-style: dashed;
+    width: 10vw;
+}
+
+.description-paragraph{
+    border-style: dashed;
+    border-color: white;
+    width: 50vw;
+}
+
+.about-page-break{
+    margin: 0;
+}
+
+/* connect area */
+.connect{
+    background-color: rgb(84, 243, 79);
+    width: 20vw;
+    height: 40vh;
 }
 
 /* temporary placeholders */
