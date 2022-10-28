@@ -1,7 +1,7 @@
 body{
     background-color: rgb(255, 77, 0);
     margin: 0;
-    height: 100vh;
+    height: fit-content;
     display: flex;
 }
 
@@ -9,7 +9,7 @@ body{
 .nav{
     background-color: aqua;
     width: 15vw;
-    height: fit-content;
+    height: auto;
 }
 
 .profile{
@@ -140,13 +140,14 @@ body{
 /* about and connect area */
 .about-and-connect{
     display: flex;
+    height: auto;
 }
 
 /* about area */
 .about{
     background-color: rgb(243, 182, 79);
     width: 65vw;
-    height: fit-content;
+    height: 100vh;
 }
 
 .job-description-banner{
@@ -194,7 +195,7 @@ body{
 .connect{
     background-color: rgb(215, 238, 87);
     width: 20vw;
-    height: fit-content;
+    height: auto;
 }
 
 .facebook-container, .twitter-container, .linkedin-container{
