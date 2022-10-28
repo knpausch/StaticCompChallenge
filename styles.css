@@ -7,7 +7,8 @@ body{
 
 /* nav bar */
 .nav{
-    background-color: aqua;
+    background-color: #354052;
+    color: #aab6c7;
     width: 15vw;
     height: auto;
 }
@@ -19,10 +20,43 @@ body{
 }
 
 .profile, .menu, .admin, .categories{
-    border-style: dashed;
     margin: 0;
     padding: 0;
     height: fit-content;
+}
+
+.home-menu, .jobs-menu, .resumes-menu, .tasks-menu, .calendar-menu,
+.users-menu, .locations-menu, .workflows-menu, .job-boards-menu, 
+.social-menu, .name-and-arrow{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox1, .checkbox2, .checkbox3, .checkbox4{
+    width: 1vw;
+    height: 1vw;
+    border-radius: 2px;
+}
+
+.checkbox1{
+    background-color: #fed703;
+}
+
+.checkbox2{
+    background-color: #29adfe;
+}
+
+.checkbox3{
+    background-color: #e41a60;
+}
+
+.checkbox4{
+    background-color: #00ac89;
 }
 
 /* main page */
@@ -137,6 +171,12 @@ body{
     width: 42vw;
 }
 
+.divider-4, .divider-5, .divider-6{
+    background-color: #212836; 
+    height: 4px; 
+    border: 0;
+}
+
 /* about and connect area */
 .about-and-connect{
     display: flex;
@@ -233,6 +273,19 @@ body{
 
 .email-textbox{
     width: 17.5vw;
+}
+
+/* images and icons */
+.saul-profile{
+    width: 6vw;
+}
+
+.home-icon, .suitcase-icon, .document-icon, .list-icon, .calendar-icon,
+.people-icon, .maps-and-flags-icon, .workflow-icon, .bulletin-board-icon,
+.network-icon, .arrow-down-icon{
+    width: 1vw;
+    height: 1vw;
+    filter: invert(100%) sepia(20%) saturate(4709%) hue-rotate(173deg) brightness(79%) contrast(94%);
 }
 
 /* temporary placeholders */
