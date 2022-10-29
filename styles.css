@@ -241,7 +241,11 @@ body{
 }
 
 .totals-button{
-    width: 12vw;
+    width: fit-content;
+}
+
+.totals-text{
+    padding: 1vh;
 }
 
 .divider-1, .divider-2{
@@ -262,13 +266,15 @@ body{
 
 /* about area */
 .about{
-    background-color: rgb(243, 182, 79);
+    background-color: #ffffff;
     width: 65vw;
     height: 100vh;
+    color: #435362
 }
 
 .job-description-banner{
-    background-color: blue;
+    background-color: #607594;
+    color: white;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -278,28 +284,55 @@ body{
     margin: 0;
 }
 
+.edit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #808caa;
+    width: 4.5vw;
+    height: 2vw;
+}
+
+.pencil-icon2{
+    width: 1vw;
+    height: 1vw;
+    filter: invert(100%) sepia(84%) saturate(1401%) hue-rotate(179deg) brightness(108%) contrast(99%);
+}
+
+.walter-white-profile{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.facebook-icon, .twitter-icon, .linkedin-icon{
+    width: 2vw;
+    height: 2vw;
+}
+
+.globe-icon, .widget-icon, .paper-plane-icon{
+    width: 1.5vw;
+    height: 1.5vw;
+    filter: invert(12%) sepia(17%) saturate(1409%) hue-rotate(175deg) brightness(94%) contrast(89%);
+}
+
 .position-title-container, .location-container, .employment-type-container,
 .experience-container, .status-container,
 .hiring-lead-container, .approved-salary-container{
     display: flex;
-    border-style: dashed;
     align-items: center;
 }
 
 .description-container{
     display: flex;
-    border-style: dashed;
 }
 
 .position-title-text, .location-text, .employment-type-text,
 .experience-text, .status-text, .description-text, .hiring-lead-text,
 .approved-salary-text{
-    border-style: dashed;
     width: 10vw;
 }
 
 .description-paragraph{
-    border-style: dashed;
     border-color: white;
     width: 50vw;
 }
@@ -310,20 +343,42 @@ body{
 
 /* connect area */
 .connect{
-    background-color: rgb(215, 238, 87);
+    background-color: #edf2f6;
     width: 20vw;
     height: auto;
+    color: #1f2a3a
+}
+
+.facebook-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 1.5vw;
+    height: 2vw;
+}
+
+.facebook-container{
+    background-color: #475a93;
+}
+
+.twitter-container{
+    background-color: #50a9f4;
+}
+
+.linkedin-container{
+    background-color: #3877b5;
 }
 
 .facebook-container, .twitter-container, .linkedin-container{
     display: flex;
     align-items: center;
-    border-style: solid;
+    border-style: none;
     width: 20vw;
+    color: white;
 }
 
 .facebook-title-container, .twitter-title-container, .linkedin-title-container{
-    border-style: dashed;
     width: 18vw;
 }
 
@@ -342,6 +397,16 @@ body{
 .copy-email-container{
     display:flex;
     justify-content: center;
+}
+
+.copy-button1, .copy-button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4cb8c5;
+    color: white;
+    width: 4vw;
+    height: 2vw;
 }
 
 .job-URL-textbox, .widget-code-textbox{
@@ -365,7 +430,7 @@ body{
 
 .home-icon, .suitcase-icon, .document-icon, .list-icon, .calendar-icon,
 .people-icon, .maps-and-flags-icon, .workflow-icon, .bulletin-board-icon,
-.network-icon, .arrow-down-icon{
+.network-icon, .arrow-down-icon {
     width: 1vw;
     height: 1vw;
     filter: invert(100%) sepia(20%) saturate(4709%) hue-rotate(173deg) brightness(79%) contrast(94%);
@@ -391,34 +456,4 @@ body{
 
 .bar-graph{
     width: 20vw;
-}
-
-/* temporary placeholders */
-.place-holder{
-    background-color: grey;
-    border-style: solid;
-    width: 3.5vw;
-    height: 3.5vw;
-}
-
-.place-holder-mini{
-    background-color: grey;
-    border-style: solid;
-    width: 1vw;
-    height: 1vw;
-}
-
-.place-holder-big{
-    background-color: grey;
-    border-style: solid;
-    width: 9vw;
-    height: 9vw;
-    border-radius: 50%;
-}
-
-.place-holder-mega{
-    background-color: grey;
-    border-style: solid;
-    width: 18vw;
-    height: 9vw;
 }
