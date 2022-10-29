@@ -1,5 +1,4 @@
 body{
-    background-color: rgb(255, 77, 0);
     margin: 0;
     height: fit-content;
     display: flex;
@@ -79,6 +78,16 @@ body{
     height: 7vh;
 }
 
+.friend-container, .paper-container, .menu-container, .hamburger-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vw;
+    height: 3.5vw;
+    border-style: solid;
+    border-width: thin;
+}
+
 /* job title */
 .title{
     height: fit-content;
@@ -123,12 +132,21 @@ body{
     border-style: solid;
     border-width: thin;
     border-radius: 500px;
-    filter: invert(66%) sepia(9%) saturate(261%) hue-rotate(187deg) brightness(91%) contrast(85%);
+    border-color: #a1a5b1;
+}
+
+.green-circle{
+    background-color: #8dc94b;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    filter: inherit
 }
 
 .open-text{
     font-size: 20px;
     font-weight: bold;
+    filter: inherit
 }
 
 .bookmark-border, .pencil-border, .trash-can-border{
@@ -143,21 +161,30 @@ body{
     filter: invert(66%) sepia(9%) saturate(261%) hue-rotate(187deg) brightness(91%) contrast(85%);
 }
 
-.green-circle{
-    width: 12px;
-    height: 12px;
-    background-color: #8dc94b;
-    border-radius: 50%;
-}
-
 .about-menu{
     display: flex;
     padding: 0;
     margin: 0;
 }
 
-.about-menu-option{
-    padding-right: 5vw;
+.summary-container{
+    border-style: solid;
+    border-width: thick;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    border-bottom-color: #61b7ed;
+}
+
+.summary-text{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.summary-container, .applications-text, .job-board-text, .interviews-text,
+.activity-text, .broadcast-text, .notifications-text{
+    font-size: 25px;
+    margin-right: 4vw;
 }
 
 /* statistics area */
@@ -198,6 +225,23 @@ body{
     align-items: center;
     width: 85vw;
     background-color: #edf2f6;
+}
+
+.applicants-button, .totals-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    height: 2vw;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 500px;
+    background-color: #f9f9f9;
+    border-color: grey;
+}
+
+.totals-button{
+    width: 12vw;
 }
 
 .divider-1, .divider-2{
@@ -311,6 +355,12 @@ body{
 /* images and icons */
 .saul-profile{
     width: 6vw;
+}
+
+.left-arrow-icon{
+    width: 15px;
+    height: 15px;
+    filter: invert(47%) sepia(41%) saturate(3468%) hue-rotate(180deg) brightness(101%) contrast(87%);
 }
 
 .home-icon, .suitcase-icon, .document-icon, .list-icon, .calendar-icon,

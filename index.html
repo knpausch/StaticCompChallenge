@@ -87,13 +87,25 @@
     </section>
     <main class="main">
         <form class="search-field">
-            <img class="hamburger-icon" src="assets/hamburger.png">
+            <div class="hamburger-container">
+                <img class="left-arrow-icon" src="assets/left-arrow.png">
+                <img class="hamburger-icon" src="assets/hamburger.png">
+            </div>
             <img class="magnifying-glass-icon" src="assets/magnifying-glass.png">
             <input type="text" class="search-bar" placeholder="Search for a job, task or resume" id="searchBar" name="searchBar"><br>
-            <img class="add-friend-icon" src="assets/add-friend.png">
-            <img class="papers-icon" src="assets/calendar.png">
-            <img class="menu-icon" src="assets/menu.png">
+            <div class="friend-container">
+                <img class="add-friend-icon" src="assets/add-friend.png">
+            </div>
+            <div class="paper-container">
+                <img class="papers-icon" src="assets/calendar.png">
+            </div>
+            <div class="menu-container">
+                <img class="menu-icon" src="assets/menu.png">
+            </div>
         </form>
+        <div class="divider-7">
+            <hr>
+        </div>
         <section class="title">
             <div class="title-location-and-options">
                 <div class="title-and-location">
@@ -121,13 +133,15 @@
                 </menu>
             </div>
             <menu class="about-menu">
-                <h2 class="about-menu-option">Summary</h2>
-                <h2 class="about-menu-option">Applications</h2>
-                <h2 class="about-menu-option">Job Board</h2>
-                <h2 class="about-menu-option">Interviews</h2>
-                <h2 class="about-menu-option">Activity</h2>
-                <h2 class="about-menu-option">Broadcast</h2>
-                <h2 class="about-menu-option">Notifications</h2>
+                <div class="summary-container">
+                    <p class="summary-text">Summary</p>
+                </div>
+                <p class="applications-text">Applications</p>
+                <p class="job-board-text">Job Board</p>
+                <p class="interviews-text">Interviews</p>
+                <p class="activity-text">Activity</p>
+                <p class="broadcast-text">Broadcast</p>
+                <p class="notifications-text">Notifications</p>
             </menu>
         </section>
         <section class="statistics">
@@ -137,12 +151,17 @@
                     <img class="interviews-graph" src="assets/interviews.png">
                     <img class="forwards-graph" src="assets/forwards.png">
                 </div>
-                <button type="button" class="totals-bttn">Totals - Out of 5,231 views</button>
+                <div class="totals-button">
+                    <p class="totals-text">Totals - Out of 5,231 views</p>
+                </div>
+                <!-- <button type="button" class="totals-bttn">Totals - Out of 5,231 views</button> -->
             </section>
             <section class="bar-information">
                 <div class="bar-graph">
                     <img class="bar-graph" src="assets/bargraph.png">
-                    <button type="button" class="applicants-bttn">Applicants/Day</button>
+                    <div class="applicants-button">
+                        <p class="applicants-text">Applicants/Day</p>
+                    </div>
                 </div>
             </section>
         </section>
