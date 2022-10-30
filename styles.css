@@ -303,8 +303,9 @@ body{
 
 /* about area */
 .about{
-    background-color: #ffffff;
-    width: 65vw;
+    background-color: #edf2f6;
+    width: 60vw;
+    padding: 2.25vw;
     height: 100vh;
     color: #435362
 }
@@ -319,6 +320,8 @@ body{
 
 .job-description-text{
     margin: 0;
+    padding-left: 2vw;
+    padding-right: 1vw;
 }
 
 .edit-button{
@@ -333,12 +336,14 @@ body{
 .pencil-icon2{
     width: 1vw;
     height: 1vw;
+    padding-right: 5px;
     filter: invert(100%) sepia(84%) saturate(1401%) hue-rotate(179deg) brightness(108%) contrast(99%);
 }
 
 .walter-white-profile{
     width: 2.5vw;
     height: 2.5vw;
+    padding-right: 1vw;
 }
 
 .facebook-icon, .twitter-icon, .linkedin-icon{
@@ -357,16 +362,19 @@ body{
 .hiring-lead-container, .approved-salary-container{
     display: flex;
     align-items: center;
+    background-color: white;
 }
 
 .description-container{
     display: flex;
+    background-color: white;
 }
 
 .position-title-text, .location-text, .employment-type-text,
 .experience-text, .status-text, .description-text, .hiring-lead-text,
 .approved-salary-text{
     width: 10vw;
+    padding-left: 2vw;
 }
 
 .description-paragraph{
