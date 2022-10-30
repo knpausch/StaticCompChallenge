@@ -87,7 +87,16 @@ body{
     width: 82%;
     height: 7vh;
     border: none;
-    /* border: 1px solid #ccc; */
+}
+
+.title-and-location{
+    padding-top: 3vw;
+}
+
+.hypen-text{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .friend-container, .paper-container, .menu-container, .hamburger-container{
@@ -110,12 +119,17 @@ body{
 .title-location-and-options{
     display: flex;
     justify-content: space-between;
+    padding-left: 2vw;
+}
+
+.attorney-text{
+    margin: 0;
 }
 
 .subtitle{
     display: flex;
     align-items: center;
-    height: fit-content;
+    padding-top: 0.5vw;
 }
 
 .location, .preview-this-post{
@@ -132,6 +146,7 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
+    padding-right: 1vw;
     width: 15vw;
 }
 
@@ -451,6 +466,10 @@ body{
     padding-top: .5vw;
     padding-left: .5vw;
     filter: invert(100%) sepia(20%) saturate(4709%) hue-rotate(173deg) brightness(79%) contrast(94%);
+}
+
+.maps-and-flags-icon2{
+    padding-right: 0.5vw;
 }
 
 .home-icon, .suitcase-icon, .document-icon, .list-icon, .calendar-icon,
