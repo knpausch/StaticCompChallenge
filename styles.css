@@ -84,8 +84,10 @@ body{
 }
 
 .search-bar{
-    width: 65vw;
+    width: 82%;
     height: 7vh;
+    border: none;
+    /* border: 1px solid #ccc; */
 }
 
 .friend-container, .paper-container, .menu-container, .hamburger-container{
@@ -268,6 +270,10 @@ body{
     border: 0;
 }
 
+.divider-7{
+    margin: 0;
+}
+
 /* about and connect area */
 .about-and-connect{
     display: flex;
@@ -434,8 +440,8 @@ body{
 }
 
 .left-arrow-icon{
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     filter: invert(47%) sepia(41%) saturate(3468%) hue-rotate(180deg) brightness(101%) contrast(87%);
 }
 
@@ -458,8 +464,8 @@ body{
 
 .hamburger-icon, .magnifying-glass-icon, .add-friend-icon, .papers-icon,
 .menu-icon {
-    width: 2vw;
-    height: 2vw;
+    width: 1.5vw;
+    height: 1.5vw;
     filter: invert(66%) sepia(9%) saturate(261%) hue-rotate(187deg) brightness(91%) contrast(85%);
 }
 
