@@ -1,3 +1,7 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 body{
     margin: 0;
     height: fit-content;
@@ -24,11 +28,12 @@ body{
     height: fit-content;
 }
 
-.home-menu, .jobs-menu, .resumes-menu, .tasks-menu, .calendar-menu,
+.main-text, .home-menu, .jobs-menu, .resumes-menu, .tasks-menu, .calendar-menu,
 .users-menu, .locations-menu, .workflows-menu, .job-boards-menu, 
 .social-menu, .name-and-arrow{
     display: flex;
     align-items: center;
+    padding-left: 1vw;
 }
 
 .checkbox-label{
@@ -39,6 +44,7 @@ body{
 .checkbox1, .checkbox2, .checkbox3, .checkbox4{
     width: 1vw;
     height: 1vw;
+    margin-left: 1vw;
     border-radius: 2px;
 }
 
@@ -58,6 +64,10 @@ body{
     background-color: #00ac89;
 }
 
+.administration-text, .design-text, .executive-text, .human-resources-text{
+    padding-left: 1vw;
+}
+
 /* main page */
 .main{
     background-color: #ffffff;
@@ -74,8 +84,19 @@ body{
 }
 
 .search-bar{
-    width: 65vw;
+    width: 82%;
     height: 7vh;
+    border: none;
+}
+
+.title-and-location{
+    padding-top: 3vw;
+}
+
+.hypen-text{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .friend-container, .paper-container, .menu-container, .hamburger-container{
@@ -98,12 +119,17 @@ body{
 .title-location-and-options{
     display: flex;
     justify-content: space-between;
+    padding-left: 2vw;
+}
+
+.attorney-text{
+    margin: 0;
 }
 
 .subtitle{
     display: flex;
     align-items: center;
-    height: fit-content;
+    padding-top: 0.5vw;
 }
 
 .location, .preview-this-post{
@@ -120,6 +146,7 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
+    padding-right: 1vw;
     width: 15vw;
 }
 
@@ -139,6 +166,7 @@ body{
     background-color: #8dc94b;
     width: 12px;
     height: 12px;
+    margin-right: 5px;
     border-radius: 50%;
     filter: inherit
 }
@@ -165,6 +193,7 @@ body{
     display: flex;
     padding: 0;
     margin: 0;
+    padding-left: 2vw;
 }
 
 .summary-container{
@@ -178,12 +207,12 @@ body{
 
 .summary-text{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .summary-container, .applications-text, .job-board-text, .interviews-text,
 .activity-text, .broadcast-text, .notifications-text{
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 4vw;
 }
 
@@ -198,6 +227,8 @@ body{
     flex-direction: column;
     align-items: center;
     width: 45vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
 }
 
 .pie-charts{
@@ -212,6 +243,8 @@ body{
     width: 45vw;
     display: flex;
     justify-content: center;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
 }
 
 .bar-graph{
@@ -238,6 +271,7 @@ body{
     border-radius: 500px;
     background-color: #f9f9f9;
     border-color: grey;
+    margin-top: 2vw;
 }
 
 .totals-button{
@@ -258,6 +292,10 @@ body{
     border: 0;
 }
 
+.divider-7{
+    margin: 0;
+}
+
 /* about and connect area */
 .about-and-connect{
     display: flex;
@@ -266,9 +304,10 @@ body{
 
 /* about area */
 .about{
-    background-color: #ffffff;
-    width: 65vw;
-    height: 100vh;
+    background-color: #edf2f6;
+    width: 60vw;
+    padding: 1.5vw;
+    height: auto;
     color: #435362
 }
 
@@ -282,6 +321,8 @@ body{
 
 .job-description-text{
     margin: 0;
+    padding-left: 2vw;
+    padding-right: 1vw;
 }
 
 .edit-button{
@@ -296,12 +337,14 @@ body{
 .pencil-icon2{
     width: 1vw;
     height: 1vw;
+    padding-right: 5px;
     filter: invert(100%) sepia(84%) saturate(1401%) hue-rotate(179deg) brightness(108%) contrast(99%);
 }
 
 .walter-white-profile{
     width: 2.5vw;
     height: 2.5vw;
+    padding-right: 1vw;
 }
 
 .facebook-icon, .twitter-icon, .linkedin-icon{
@@ -312,6 +355,7 @@ body{
 .globe-icon, .widget-icon, .paper-plane-icon{
     width: 1.5vw;
     height: 1.5vw;
+    padding-right: 1vw;
     filter: invert(12%) sepia(17%) saturate(1409%) hue-rotate(175deg) brightness(94%) contrast(89%);
 }
 
@@ -320,16 +364,19 @@ body{
 .hiring-lead-container, .approved-salary-container{
     display: flex;
     align-items: center;
+    background-color: white;
 }
 
 .description-container{
     display: flex;
+    background-color: white;
 }
 
 .position-title-text, .location-text, .employment-type-text,
 .experience-text, .status-text, .description-text, .hiring-lead-text,
 .approved-salary-text{
     width: 10vw;
+    padding-left: 2vw;
 }
 
 .description-paragraph{
@@ -346,7 +393,9 @@ body{
     background-color: #edf2f6;
     width: 20vw;
     height: auto;
-    color: #1f2a3a
+    color: #1f2a3a;
+    padding: 1.5vw;
+    padding-left: 0;
 }
 
 .facebook-background{
@@ -376,6 +425,7 @@ body{
     border-style: none;
     width: 20vw;
     color: white;
+    margin-bottom: 1vw;
 }
 
 .facebook-title-container, .twitter-title-container, .linkedin-title-container{
@@ -397,6 +447,8 @@ body{
 .copy-email-container{
     display:flex;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 2vw;
 }
 
 .copy-button1, .copy-button2{
@@ -406,45 +458,71 @@ body{
     background-color: #4cb8c5;
     color: white;
     width: 4vw;
-    height: 2vw;
+    height: 3vw;
+    border-radius: 5px;
 }
 
 .job-URL-textbox, .widget-code-textbox{
     width: 15vw;
+    height: 2.75vw;
+    border-radius: 5px;
 }
 
 .email-textbox{
     width: 17.5vw;
+    height: 2.75vw;
+    border-radius: 5px;
 }
 
 /* images and icons */
 .saul-profile{
+    padding-top: 2vw;
     width: 6vw;
 }
 
 .left-arrow-icon{
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     filter: invert(47%) sepia(41%) saturate(3468%) hue-rotate(180deg) brightness(101%) contrast(87%);
+}
+
+.arrow-down-icon{
+    width: .5vw;
+    height: .5vw;
+    padding-top: .5vw;
+    padding-left: .5vw;
+    filter: invert(100%) sepia(20%) saturate(4709%) hue-rotate(173deg) brightness(79%) contrast(94%);
+}
+
+.maps-and-flags-icon2{
+    padding-right: 0.5vw;
 }
 
 .home-icon, .suitcase-icon, .document-icon, .list-icon, .calendar-icon,
 .people-icon, .maps-and-flags-icon, .workflow-icon, .bulletin-board-icon,
-.network-icon, .arrow-down-icon {
+.network-icon {
     width: 1vw;
     height: 1vw;
+    padding-right: 1vw;
     filter: invert(100%) sepia(20%) saturate(4709%) hue-rotate(173deg) brightness(79%) contrast(94%);
 }
 
 .hamburger-icon, .magnifying-glass-icon, .add-friend-icon, .papers-icon,
 .menu-icon {
-    width: 2vw;
-    height: 2vw;
+    width: 1.5vw;
+    height: 1.5vw;
     filter: invert(66%) sepia(9%) saturate(261%) hue-rotate(187deg) brightness(91%) contrast(85%);
 }
 
-.maps-and-flags-icon2, .bookmark-icon, .pencil-icon, .trash-can-icon, 
 .up-arrow-icon{
+    width: 2vw;
+    height: 2vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    filter: invert(66%) sepia(9%) saturate(261%) hue-rotate(187deg) brightness(91%) contrast(85%);
+}
+
+.maps-and-flags-icon2, .bookmark-icon, .pencil-icon, .trash-can-icon{
     width: 1vw;
     height: 1vw;
     filter: invert(66%) sepia(9%) saturate(261%) hue-rotate(187deg) brightness(91%) contrast(85%);
