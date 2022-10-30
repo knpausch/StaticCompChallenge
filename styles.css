@@ -44,6 +44,7 @@ body{
 .checkbox1, .checkbox2, .checkbox3, .checkbox4{
     width: 1vw;
     height: 1vw;
+    margin-left: 1vw;
     border-radius: 2px;
 }
 
@@ -61,6 +62,10 @@ body{
 
 .checkbox4{
     background-color: #00ac89;
+}
+
+.administration-text, .design-text, .executive-text, .human-resources-text{
+    padding-left: 1vw;
 }
 
 /* main page */
@@ -424,6 +429,7 @@ body{
 
 /* images and icons */
 .saul-profile{
+    padding-top: 2vw;
     width: 6vw;
 }
 
