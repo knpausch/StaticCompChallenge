@@ -166,6 +166,7 @@ body{
     background-color: #8dc94b;
     width: 12px;
     height: 12px;
+    margin-right: 5px;
     border-radius: 50%;
     filter: inherit
 }
@@ -305,8 +306,8 @@ body{
 .about{
     background-color: #edf2f6;
     width: 60vw;
-    padding: 2.25vw;
-    height: 100vh;
+    padding: 1.5vw;
+    height: auto;
     color: #435362
 }
 
@@ -354,6 +355,7 @@ body{
 .globe-icon, .widget-icon, .paper-plane-icon{
     width: 1.5vw;
     height: 1.5vw;
+    padding-right: 1vw;
     filter: invert(12%) sepia(17%) saturate(1409%) hue-rotate(175deg) brightness(94%) contrast(89%);
 }
 
@@ -391,7 +393,9 @@ body{
     background-color: #edf2f6;
     width: 20vw;
     height: auto;
-    color: #1f2a3a
+    color: #1f2a3a;
+    padding: 1.5vw;
+    padding-left: 0;
 }
 
 .facebook-background{
@@ -421,6 +425,7 @@ body{
     border-style: none;
     width: 20vw;
     color: white;
+    margin-bottom: 1vw;
 }
 
 .facebook-title-container, .twitter-title-container, .linkedin-title-container{
@@ -442,6 +447,8 @@ body{
 .copy-email-container{
     display:flex;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 2vw;
 }
 
 .copy-button1, .copy-button2{
@@ -451,15 +458,20 @@ body{
     background-color: #4cb8c5;
     color: white;
     width: 4vw;
-    height: 2vw;
+    height: 3vw;
+    border-radius: 5px;
 }
 
 .job-URL-textbox, .widget-code-textbox{
     width: 15vw;
+    height: 2.75vw;
+    border-radius: 5px;
 }
 
 .email-textbox{
     width: 17.5vw;
+    height: 2.75vw;
+    border-radius: 5px;
 }
 
 /* images and icons */
